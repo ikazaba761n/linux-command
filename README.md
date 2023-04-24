@@ -1,9 +1,9 @@
 # linux-command
 linux　zshインストール設定
 
-<#> linux-debian zshをインストール<br>
+#　linux-debian zshをインストール<br>
 
-　curl　と　ｓｈ　で　ウェブからローカルに保存してインストール
+　-curl　と　ｓｈ　で　ウェブからローカルに保存してインストール
  
 <##>　初回起動で　zshの　設定画面が出るが<br>
 oh-my-zsh を入れるので設定しないで終了
@@ -14,7 +14,7 @@ oh-my-zsh を入れるので設定しないで終了
 #　テーマを変更する
 zsh テーマの設定
 
-
+~~
 　　　vim ~/.zshrc
          ﾎｰﾑﾃﾞｨﾚｸﾄﾘの　設定ファイル　で　テーマ名を steef と記述　
          
