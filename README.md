@@ -9,14 +9,14 @@ linux　zshインストール設定
 #　oh-my-zsh　は　githubからクローンでインストール
 
 
-#テーマを変更する
+#　テーマを変更する
 zsh テーマの設定
 
 
 　　　vim ~/.zshrc
          ﾎｰﾑﾃﾞｨﾚｸﾄﾘの　設定ファイル　で　テーマ名を steef と記述　
          
-         steeef.zsh-theme　（　フルパスでしてしない　）
+         steeef.zsh-theme　（　フルパスで指定　記述しない事　）
 
          
 
