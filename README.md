@@ -55,3 +55,21 @@ zsh テーマの設定
    
    
    
+   
+   
+   #  groups コマンド
+username adm cdrom sudo dip plugdev
+
+# パーミッションを　数字で表示する  
+
+- stat --format="%a %U %G %n" /etc/*
+  - 755 root root /etc/X11  
+644 root root /etc/adduser.conf  
+755 root root /etc/alternatives  
+755 root root /etc/apparmor.d  
+755 root root /etc/apt  
+644 root root /etc/bash.bashrc  
+
+   
+   
+   
