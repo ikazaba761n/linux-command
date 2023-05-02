@@ -73,3 +73,27 @@ username adm cdrom sudo dip plugdev
    
    
    
+# mysqld 起動できないとき　linux　debian
+## for UNIX socket file don't exists. メッセージ
+- sudo mkdir /var/run/mysqld
+- sudo chown mysql:mysql /var/run/mysqld
+
+## 起動　mysqld
+ - sudo mysqld_safe &
+ 
+ ## mysql 接続
+  - mysql -u root -p
+  ## mysql データベース一覧
+  - SHOW DATABASES;
+  ## テーブルを表示
+   - SHOW TABLES FROM (database);
+  ## mysqladmin で　確認
+   - mysqladmin -u root -p ping
+Enter password:
+mysqld is alive
+
+# mysql ターミナルを落とす、debianを再起動すると  
+# /var/run/ ディレクトリの　mysqld が無くなるので  
+# 毎回　ディレクトリ作成　グループの設定をする
+
+## wsl では　mysqldを　起動するコマンドが使えない
