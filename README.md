@@ -88,9 +88,9 @@ username adm cdrom sudo dip plugdev
   ## テーブルを表示
    - SHOW TABLES FROM (database);
   ## mysqladmin で　確認
-   - mysqladmin -u root -p ping
-Enter password:
-mysqld is alive
+   - mysqladmin -u root -p ping  
+Enter password:  
+mysqld is alive  
 
 # mysql ターミナルを落とす、debianを再起動すると  
 # /var/run/ ディレクトリの　mysqld が無くなるので  
