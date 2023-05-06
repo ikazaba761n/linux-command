@@ -101,4 +101,23 @@ mysqld is alive
   - ディスクベースのファイルシステムではなく、メモリーベースのファイルシステム  
   - 
 
-## wsl では　mysqldを　起動するコマンドが使えない
+## wsl では　mysqldを　起動するコマンドが使えない  
+  
+  ### 文字コード確認  
+    
+    ### mysql> show variables like '%char%';
++--------------------------+--------------------------------+  
+| Variable_name            | Value                          |  
++--------------------------+--------------------------------+  
+| character_set_client     | utf8mb4                        |  
+| character_set_connection | utf8mb4                        |  
+| character_set_database   | utf8mb4                        |  
+| character_set_filesystem | binary                         |  
+| character_set_results    | utf8mb4                        |  
+| character_set_server     | utf8mb4                        |  
+| character_set_system     | utf8mb3                        |  
+| character_sets_dir       | /usr/share/mysql-8.0/charsets/ |  
++--------------------------+--------------------------------+  
+8 rows in set (0.16 sec)    
+
+
