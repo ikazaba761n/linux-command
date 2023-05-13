@@ -101,7 +101,12 @@ mysqld is alive
   - ディスクベースのファイルシステムではなく、メモリーベースのファイルシステム  
   - 
 
-## wsl では　mysqldを　起動するコマンドが使えない  
+## wsl では　mysqldを　起動するコマンドが使えない    
+## sudo service mysqld & 
+## 一応起動するが　?        TN     0:00 sudo mysqld start   
+## service を除いて  
+## sudo mysqld_safe & 　これでmysqldが起動する  
+
   
   ### 文字コード確認  
     
