@@ -126,3 +126,9 @@ mysqld is alive
 8 rows in set (0.16 sec)    
 
 
+
+
+###  apache2 起動　debianの場合
+### sudo /etc/init.d/apache2 start
+### sudo /etc/init.d/apache2 stop
+### init.d/apache2  シェルスクリプトである  
