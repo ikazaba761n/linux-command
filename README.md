@@ -132,3 +132,9 @@ mysqld is alive
 ### sudo /etc/init.d/apache2 start
 ### sudo /etc/init.d/apache2 stop
 ### init.d/apache2  シェルスクリプトである  
+
+
+## シェルスクリプト　./　ドットスラッシュ　を使う理由
+## ./はカレントディレクトリの意味、フルパス指定でもスクリプトは動く
+## #!/bin/bash シバンは使うスクリプトを指定すること　shでは動かないn/
+
