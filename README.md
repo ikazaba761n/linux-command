@@ -158,12 +158,16 @@ mysqld is alive
 
 #### xargs の使用例
 リストで条件に一致のファイルの中身を表示
+
 $ ls *.pem | xargs cat
+
 -----BEGIN PUBLIC KEY-----
 lExQPVqcyQvu0kwyJV4iz8U12JjJPEWtIYz7vrXoKkO7WyyzYEY0kSDDo
 Oefa8OaTBg7ZLFqhULraeYftciNkXb4WybhDwddmCX8r3XHl1Tc3vNLVTagfAgMB
 AAE
+
 -----END PUBLIC KEY-----
+
 
 
 
